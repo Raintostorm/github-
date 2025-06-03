@@ -1,0 +1,49 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+log/
+logs/
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Maven / Gradle build directories
+target/
+build/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse files
+.metadata/
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code files
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Spring Boot specific
+!**/src/main/**/target/classes/
+!**/src/main/**/build/classes/
+!**/src/main/**/generated/
+!**/src/test/**/target/classes/
+!**/src/test/**/build/classes/
+
+# Environment variables / sensitive config
+.env
+*.env
+application*.properties # Đôi khi bạn có thông tin nhạy cảm trong application.properties, cân nhắc bỏ nó hoặc dùng profile riêng.
+application*.yml
